@@ -1,0 +1,451 @@
+[ {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 1,
+  "date" : 1725148800000,
+  "weekday" : "",
+  "times" : {
+    "tong_saharlik" : "04:27",
+    "quyosh" : "05:50",
+    "peshin" : "12:23",
+    "asr" : "17:01",
+    "shom_iftor" : "18:59",
+    "hufton" : "20:15"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 2,
+  "date" : 1725235200000,
+  "weekday" : "Dushanba",
+  "times" : {
+    "tong_saharlik" : "04:28",
+    "quyosh" : "05:51",
+    "peshin" : "12:23",
+    "asr" : "17:00",
+    "shom_iftor" : "18:57",
+    "hufton" : "20:13"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 3,
+  "date" : 1725321600000,
+  "weekday" : "Seshanba",
+  "times" : {
+    "tong_saharlik" : "04:29",
+    "quyosh" : "05:52",
+    "peshin" : "12:22",
+    "asr" : "16:59",
+    "shom_iftor" : "18:55",
+    "hufton" : "20:11"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 4,
+  "date" : 1725408000000,
+  "weekday" : "Chorshanba",
+  "times" : {
+    "tong_saharlik" : "04:31",
+    "quyosh" : "05:53",
+    "peshin" : "12:22",
+    "asr" : "16:57",
+    "shom_iftor" : "18:54",
+    "hufton" : "20:10"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 5,
+  "date" : 1725494400000,
+  "weekday" : "Payshanba",
+  "times" : {
+    "tong_saharlik" : "04:32",
+    "quyosh" : "05:54",
+    "peshin" : "12:22",
+    "asr" : "16:56",
+    "shom_iftor" : "18:52",
+    "hufton" : "20:08"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 6,
+  "date" : 1725580800000,
+  "weekday" : "Juma",
+  "times" : {
+    "tong_saharlik" : "04:33",
+    "quyosh" : "05:55",
+    "peshin" : "12:21",
+    "asr" : "16:55",
+    "shom_iftor" : "18:50",
+    "hufton" : "20:06"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 7,
+  "date" : 1725667200000,
+  "weekday" : "Shanba",
+  "times" : {
+    "tong_saharlik" : "04:34",
+    "quyosh" : "05:56",
+    "peshin" : "12:21",
+    "asr" : "16:53",
+    "shom_iftor" : "18:49",
+    "hufton" : "20:04"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 8,
+  "date" : 1725753600000,
+  "weekday" : "Yakshanba",
+  "times" : {
+    "tong_saharlik" : "04:35",
+    "quyosh" : "05:57",
+    "peshin" : "12:21",
+    "asr" : "16:52",
+    "shom_iftor" : "18:47",
+    "hufton" : "20:02"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 9,
+  "date" : 1725840000000,
+  "weekday" : "Dushanba",
+  "times" : {
+    "tong_saharlik" : "04:37",
+    "quyosh" : "05:58",
+    "peshin" : "12:20",
+    "asr" : "16:51",
+    "shom_iftor" : "18:45",
+    "hufton" : "20:00"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 10,
+  "date" : 1725926400000,
+  "weekday" : "Seshanba",
+  "times" : {
+    "tong_saharlik" : "04:38",
+    "quyosh" : "05:59",
+    "peshin" : "12:20",
+    "asr" : "16:49",
+    "shom_iftor" : "18:44",
+    "hufton" : "19:58"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 11,
+  "date" : 1726012800000,
+  "weekday" : "Chorshanba",
+  "times" : {
+    "tong_saharlik" : "04:39",
+    "quyosh" : "06:00",
+    "peshin" : "12:20",
+    "asr" : "16:48",
+    "shom_iftor" : "18:42",
+    "hufton" : "19:56"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 12,
+  "date" : 1726099200000,
+  "weekday" : "Payshanba",
+  "times" : {
+    "tong_saharlik" : "04:40",
+    "quyosh" : "06:01",
+    "peshin" : "12:19",
+    "asr" : "16:46",
+    "shom_iftor" : "18:40",
+    "hufton" : "19:55"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 13,
+  "date" : 1726185600000,
+  "weekday" : "Juma",
+  "times" : {
+    "tong_saharlik" : "04:41",
+    "quyosh" : "06:02",
+    "peshin" : "12:19",
+    "asr" : "16:45",
+    "shom_iftor" : "18:38",
+    "hufton" : "19:53"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 14,
+  "date" : 1726272000000,
+  "weekday" : "Shanba",
+  "times" : {
+    "tong_saharlik" : "04:42",
+    "quyosh" : "06:03",
+    "peshin" : "12:18",
+    "asr" : "16:44",
+    "shom_iftor" : "18:37",
+    "hufton" : "19:51"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 15,
+  "date" : 1726358400000,
+  "weekday" : "Yakshanba",
+  "times" : {
+    "tong_saharlik" : "04:44",
+    "quyosh" : "06:04",
+    "peshin" : "12:18",
+    "asr" : "16:42",
+    "shom_iftor" : "18:35",
+    "hufton" : "19:49"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 16,
+  "date" : 1726444800000,
+  "weekday" : "Dushanba",
+  "times" : {
+    "tong_saharlik" : "04:45",
+    "quyosh" : "06:05",
+    "peshin" : "12:18",
+    "asr" : "16:41",
+    "shom_iftor" : "18:33",
+    "hufton" : "19:47"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 17,
+  "date" : 1726531200000,
+  "weekday" : "Seshanba",
+  "times" : {
+    "tong_saharlik" : "04:46",
+    "quyosh" : "06:06",
+    "peshin" : "12:17",
+    "asr" : "16:39",
+    "shom_iftor" : "18:32",
+    "hufton" : "19:45"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 18,
+  "date" : 1726617600000,
+  "weekday" : "Chorshanba",
+  "times" : {
+    "tong_saharlik" : "04:47",
+    "quyosh" : "06:07",
+    "peshin" : "12:17",
+    "asr" : "16:38",
+    "shom_iftor" : "18:30",
+    "hufton" : "19:43"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 19,
+  "date" : 1726704000000,
+  "weekday" : "Payshanba",
+  "times" : {
+    "tong_saharlik" : "04:48",
+    "quyosh" : "06:08",
+    "peshin" : "12:17",
+    "asr" : "16:37",
+    "shom_iftor" : "18:28",
+    "hufton" : "19:42"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 20,
+  "date" : 1726790400000,
+  "weekday" : "Juma",
+  "times" : {
+    "tong_saharlik" : "04:49",
+    "quyosh" : "06:09",
+    "peshin" : "12:16",
+    "asr" : "16:35",
+    "shom_iftor" : "18:26",
+    "hufton" : "19:40"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 21,
+  "date" : 1726876800000,
+  "weekday" : "Shanba",
+  "times" : {
+    "tong_saharlik" : "04:50",
+    "quyosh" : "06:10",
+    "peshin" : "12:16",
+    "asr" : "16:34",
+    "shom_iftor" : "18:25",
+    "hufton" : "19:38"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 22,
+  "date" : 1726963200000,
+  "weekday" : "Yakshanba",
+  "times" : {
+    "tong_saharlik" : "04:51",
+    "quyosh" : "06:11",
+    "peshin" : "12:16",
+    "asr" : "16:32",
+    "shom_iftor" : "18:23",
+    "hufton" : "19:36"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 23,
+  "date" : 1727049600000,
+  "weekday" : "Dushanba",
+  "times" : {
+    "tong_saharlik" : "04:52",
+    "quyosh" : "06:12",
+    "peshin" : "12:15",
+    "asr" : "16:31",
+    "shom_iftor" : "18:21",
+    "hufton" : "19:34"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 24,
+  "date" : 1727136000000,
+  "weekday" : "Seshanba",
+  "times" : {
+    "tong_saharlik" : "04:54",
+    "quyosh" : "06:13",
+    "peshin" : "12:15",
+    "asr" : "16:29",
+    "shom_iftor" : "18:20",
+    "hufton" : "19:33"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 25,
+  "date" : 1727222400000,
+  "weekday" : "Chorshanba",
+  "times" : {
+    "tong_saharlik" : "04:55",
+    "quyosh" : "06:14",
+    "peshin" : "12:15",
+    "asr" : "16:28",
+    "shom_iftor" : "18:18",
+    "hufton" : "19:31"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 26,
+  "date" : 1727308800000,
+  "weekday" : "Payshanba",
+  "times" : {
+    "tong_saharlik" : "04:56",
+    "quyosh" : "06:15",
+    "peshin" : "12:14",
+    "asr" : "16:26",
+    "shom_iftor" : "18:16",
+    "hufton" : "19:29"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 27,
+  "date" : 1727395200000,
+  "weekday" : "Juma",
+  "times" : {
+    "tong_saharlik" : "04:57",
+    "quyosh" : "06:16",
+    "peshin" : "12:14",
+    "asr" : "16:25",
+    "shom_iftor" : "18:14",
+    "hufton" : "19:27"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 28,
+  "date" : 1727481600000,
+  "weekday" : "Shanba",
+  "times" : {
+    "tong_saharlik" : "04:58",
+    "quyosh" : "06:17",
+    "peshin" : "12:14",
+    "asr" : "16:23",
+    "shom_iftor" : "18:13",
+    "hufton" : "19:25"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 29,
+  "date" : 1727568000000,
+  "weekday" : "Yakshanba",
+  "times" : {
+    "tong_saharlik" : "04:59",
+    "quyosh" : "06:18",
+    "peshin" : "12:13",
+    "asr" : "16:22",
+    "shom_iftor" : "18:11",
+    "hufton" : "19:24"
+  }
+}, {
+  "region" : "Toshkent",
+  "regionNumber" : 27,
+  "month" : 9,
+  "day" : 30,
+  "date" : 1727654400000,
+  "weekday" : "Dushanba",
+  "times" : {
+    "tong_saharlik" : "05:00",
+    "quyosh" : "06:19",
+    "peshin" : "12:13",
+    "asr" : "16:20",
+    "shom_iftor" : "18:09",
+    "hufton" : "19:22"
+  }
+} ]
