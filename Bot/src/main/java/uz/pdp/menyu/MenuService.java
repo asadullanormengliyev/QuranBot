@@ -13,7 +13,7 @@ public class MenuService {
     public static SendMessage showMenyu(Long chatId) {
 
         List<String> stringList = List.of("Namoz Vaqtlari\uD83D\uDD58", "Eng Yaqin Namoz\uD83D\uDCAC", "Eng yaqin Masjidlar\uD83D\uDD4C",
-                "Tasbex\uD83D\uDCFF", "Quroni Karimdan Bazi Suralar\uD83D\uDCD6", "Xijriy Yil Xisobi\uD83D\uDCC6", "✨Allohning go`zal ismlari", "Quran☪\uFE0F");
+                "Tasbex\uD83D\uDCFF", "Quroni Karimdan Bazi Suralar\uD83D\uDCD6", "Xijriy Yil Xisobi\uD83D\uDCC6", "✨Allohning go`zal ismlari", "Quran☪\uFE0F","\uD83E\uDD32Duolar");
 
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);

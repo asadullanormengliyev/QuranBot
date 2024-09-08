@@ -25,8 +25,7 @@ public class SakinaBot extends TelegramLongPollingBot {
             Message message = update.getMessage();
             if (message != null && message.hasText()) {
                 String text = message.getText();
-                long chatId = message.getChatId();
-                System.out.println(chatId);
+                Long chatId = message.getChatId();
                 if (StringUtils.equals(text, START) || text.startsWith(BACK)) {
                     SendMessage sendMessage = MenuService.showMenyu(chatId);
                     execute_(sendMessage);
@@ -58,22 +57,92 @@ public class SakinaBot extends TelegramLongPollingBot {
                 } else if (text.equals(TASBEX)) {
                     SendMessage sendMessage = ObjectUtil.tasbexBotService.getTasbex(message.getChatId(), "0");
                     sendMessage.setChatId(chatId);
+                    sendMessage.setText(TASBEX);
                     execute_(sendMessage);
                 } else if (text.equals(QURONI_KARIMDAN_SURAH)) {
                     ObjectUtil.koranService.newMenyu(chatId, 0);
                     SendMessage sendMessage = ObjectUtil.koranBotService.getSurah(chatId);
-                    sendMessage("Surahs",chatId);
+                    sendMessage(SURAH_STARTS,chatId);
                     execute_(sendMessage);
                 } else if (text.equals(QURAN)) {
                     SendMessage sendMessage = KoranBotService.surahList(chatId);
-                    sendMessage.setText("Suralar");
+                    sendMessage.setText(QURAN);
                     execute_(sendMessage);
                 } else if (text.equals(QURAN_SURALARI)) {
                     SendMessage sendMessage = ImamNamesBotService.imamMenu(chatId);
-                    sendMessage.setText("Imom menu");
+                    sendMessage.setText(QURAN_SURALARI);
                     execute_(sendMessage);
                 } else if (ImamNamesBotService.IMAM_MENU.containsKey(text)) {
                     sendMultipleAudios(chatId, text);
+                } else if (text.equals(DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMenu(chatId);
+                    sendMessage.setText(DUOLAR);
+                    execute_(sendMessage);
+                }else if (text.equals(QURINDA_DUOLAR)){
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, "Quronda");
+                    execute_(sendMessage);
+                } else if (text.equals(SUNNATDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, "Sunnatda");
+                    execute_(sendMessage);
+                } else if (text.equals(TONGOTGANDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.tongiVaKechkiduolar(chatId);
+                    sendMessage.setText(TONGOTGANDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(TONGVAKECHQURUNDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, TONGVAKECHQURUNDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(JUMATONGIDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, JUMATONGIDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(UYQUDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, UYQUDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(TUSHIDAYOQTIMAGANNARSAKORGANDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, TUSHIDAYOQTIMAGANNARSAKORGANDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(UYQUDANUYGONGANDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, UYQUDANUYGONGANDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(NOMOZDA_DUOLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.nomozdagiDuolar(chatId);
+                    sendMessage.setText(NOMOZDA_DUOLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(TAXORAT_QILGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, TAXORAT_QILGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(MASJIDGAKIRGANDA_VA_CHIQGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, MASJIDGAKIRGANDA_VA_CHIQGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(AZON_ESHITGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, AZON_ESHITGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(NOMOZ_BOSHLAGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, NOMOZ_BOSHLAGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(NOMOZDAGI_RUKUDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, NOMOZDAGI_RUKUDA);
+                    execute_(sendMessage);
+                } else if (text.equals(RUKUDAN_BOSH_KOTARGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, RUKUDAN_BOSH_KOTARGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(SAJDA_PAYITIDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, SAJDA_PAYITIDA);
+                    execute_(sendMessage);
+                } else if (text.equals(TASHAXXUD)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, TASHAXXUD);
+                    execute_(sendMessage);
+                } else if (text.equals(QUNT_DUOSI)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, QUNT_DUOSI);
+                    execute_(sendMessage);
+                } else if (text.equals(TASHAXXUDDAN_KEYINGI_SALOVATLAR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, TASHAXXUDDAN_KEYINGI_SALOVATLAR);
+                    execute_(sendMessage);
+                } else if (text.equals(NOMOZ_TUGAGANDA)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, NOMOZ_TUGAGANDA);
+                    execute_(sendMessage);
+                } else if (text.equals(ISTIGFOR)) {
+                    SendMessage sendMessage = ObjectUtil.duoBotService.duolarMessage(chatId, ISTIGFOR);
+                    execute_(sendMessage);
                 }
             } else if (message != null && message.hasLocation()) {
                 Location userLocation = message.getLocation();
