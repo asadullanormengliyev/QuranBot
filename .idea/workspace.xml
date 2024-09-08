@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7823294-30cb-49fd-abc0-e40451c57566" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/service/DuoBotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BotService/src/main/java/uz/pdp/model/Duolar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/duo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/BotConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/BotConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/SakinaBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/SakinaBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/menyu/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/menyu/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/service/TasbexBotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/service/TasbexBotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/utill/ObjectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bot/src/main/java/uz/pdp/utill/ObjectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BotService/src/main/java/uz/pdp/util/FilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/BotService/src/main/java/uz/pdp/util/FilePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BotService/src/main/java/uz/pdp/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/BotService/src/main/java/uz/pdp/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/surahState.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/surahState.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XML Properties File" />
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -23,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Davron" />
+        <entry key="$PROJECT_DIR$" value="Asadulla" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,24 +48,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/PdpJava/Project/Sakina_bot",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JsonUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PdpJava/Sakina_bot1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\PdpJava\Project\Sakina_bot\Bot\src\resources" />
       <recent name="C:\Users\User\PdpJava\Project\Sakina_bot\Bot\src" />
       <recent name="C:\Users\User\PdpJava\Project\Sakina_bot\Bot\src\main\resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="uz.pdp" />
     </key>
   </component>
   <component name="RunManager">

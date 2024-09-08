@@ -15,4 +15,5 @@ public class ObjectUtil {
     public static NearestPrayerTimeBotService nearestPrayerTimeBotService = new NearestPrayerTimeBotService();
     public static PrayerTimeBotService prayerTimeBotService = new PrayerTimeBotService();
     public static NamesAllahBotService namesAllahBotService = new NamesAllahBotService();
+    public static DuoBotService duoBotService = new DuoBotService();
 }

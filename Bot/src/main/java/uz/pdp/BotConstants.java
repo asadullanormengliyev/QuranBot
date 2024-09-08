@@ -27,4 +27,26 @@ public interface BotConstants {
     String ALLOH_NAME = "✨Allohning go`zal ismlari";
     String NEXTT = "nextt";
     String BACKK = "backk";
+    String DUOLAR = "\uD83E\uDD32Duolar";
+    String QURINDA_DUOLAR = "\uD83E\uDD32 Qur`onda kelgan duolar";
+    String SUNNATDA_DUOLAR = "\uD83C\uDF19 Sunnatda kelgan duolar";
+    String TONGOTGANDA_DUOLAR = "\uD83C\uDFD9\uFE0F\uD83C\uDF03Tongi va kechki duolar";
+    String NOMOZDA_DUOLAR = "\uD83D\uDED0Nomozdagi duolar";
+    String TONGVAKECHQURUNDA_DUOLAR = "Tong va kechqurunda";
+    String JUMATONGIDA_DUOLAR = "Juma tongida";
+    String UYQUDA_DUOLAR = "Uyquda qo'rqqanda";
+    String TUSHIDAYOQTIMAGANNARSAKORGANDA_DUOLAR = "Tushida yoqtirmagan narsani ko'rganda";
+    String UYQUDANUYGONGANDA_DUOLAR = "Uyqudan uyg'onganda";
+    String TAXORAT_QILGANDA = "Taxorat qilganda";
+    String MASJIDGAKIRGANDA_VA_CHIQGANDA = "Masjidga kirayotganda va undan chiqayotganda";
+    String AZON_ESHITGANDA = "Azon va iqomat eshitganda";
+    String NOMOZ_BOSHLAGANDA = "Nomoz boshlanganda";
+    String NOMOZDAGI_RUKUDA = "Nomozdagi rukuda";
+    String RUKUDAN_BOSH_KOTARGANDA = "Rukudan bosh ko'targanda";
+    String SAJDA_PAYITIDA = "Sajda payitida";
+    String TASHAXXUD = "Tashaxxud";
+    String QUNT_DUOSI = "Vitr nomozida qunt duosi";
+    String TASHAXXUDDAN_KEYINGI_SALOVATLAR = "Tashaxxuddan keyingi salovatlar";
+    String NOMOZ_TUGAGANDA = "Namoz tugaganda";
+    String ISTIGFOR = "Istig'for";
 }
