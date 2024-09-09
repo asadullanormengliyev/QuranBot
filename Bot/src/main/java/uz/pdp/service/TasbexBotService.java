@@ -2,6 +2,7 @@ package uz.pdp.service;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup;
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import uz.pdp.util.BotUtil;
 
@@ -17,13 +18,14 @@ public class TasbexBotService {
         SendMessage sendMessage = new SendMessage();
         InlineKeyboardMarkup inlineKeyboardMarkup = createInlineKeyboardMarkup(data + "\uD83D\uDCFF", "tasbex");
         sendMessage.setChatId(chatId);
-
         sendMessage.setReplyMarkup(inlineKeyboardMarkup);
 
         return sendMessage;
     }
 
-    public EditMessageReplyMarkup getUpdateTasbex(long chatId, Integer messageId) {
+
+    public EditMessageText getUpdateTasbex(long chatId, Integer messageId) {
+        EditMessageText editMessageText = new EditMessageText();
         int countTasbex = tasbexMap.getOrDefault(chatId,0);
         countTasbex++;
         if (countTasbex == 33) {
@@ -31,13 +33,11 @@ public class TasbexBotService {
         }
         tasbexMap.put(chatId,countTasbex);
         InlineKeyboardMarkup inlineKeyboardMarkup = createInlineKeyboardMarkup(countTasbex + "\uD83D\uDCFF", "tasbex");
-
-        EditMessageReplyMarkup editMessageReplyMarkup = new EditMessageReplyMarkup();
-        editMessageReplyMarkup.setChatId(chatId);
-        editMessageReplyMarkup.setMessageId(messageId);
-        editMessageReplyMarkup.setReplyMarkup(inlineKeyboardMarkup);
-
-        return editMessageReplyMarkup;
+        editMessageText.setChatId(chatId);
+        editMessageText.setMessageId(messageId);
+        editMessageText.setText(countTasbex + "/33");
+        editMessageText.setReplyMarkup(inlineKeyboardMarkup);
+        return editMessageText;
     }
 
     private InlineKeyboardMarkup createInlineKeyboardMarkup(String buttonText, String callbackData) {

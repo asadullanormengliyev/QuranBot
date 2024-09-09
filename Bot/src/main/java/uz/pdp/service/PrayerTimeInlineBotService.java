@@ -76,23 +76,29 @@ public class PrayerTimeInlineBotService {
     }
 
     private PrayerTime nextRoot(Long chatId, String callbackData) {
-        if (dayMap.isEmpty()) {
+        if (dayMap.isEmpty() || !(checkChatId(chatId))) {
             int currentDay = Integer.parseInt(getToday());
             dayMap.put(chatId, currentDay);
         }
+
         Integer day = dayMap.get(chatId);
-        List<PrayerTime> prayerTimes = JsonUtil.readGson(FilePath.PATH_PRAYERTIMES, new TypeReference<>() {
-        });
+        List<PrayerTime> prayerTimes = JsonUtil.readGson(FilePath.PATH_PRAYERTIMES, new TypeReference<>() {});
         PrayerTime nexPreyerTime = new PrayerTime();
-        for (PrayerTime prayerTime : prayerTimes) {
-            if (prayerTime.day == day) {
-                nexPreyerTime = prayerTime;
-            }
-        }
+
         if (callbackData.equals("nextt")) {
             dayMap.put(chatId, dayMap.get(chatId) + 1);
+            for (PrayerTime prayerTime : prayerTimes) {
+                if (prayerTime.day == day+1) {
+                    nexPreyerTime = prayerTime;
+                }
+            }
         } else if (callbackData.equals("backk")) {
             dayMap.put(chatId, dayMap.get(chatId) - 1);
+            for (PrayerTime prayerTime : prayerTimes) {
+                if (prayerTime.day == day-1) {
+                    nexPreyerTime = prayerTime;
+                }
+            }
         }
         return nexPreyerTime;
     }
@@ -120,6 +126,15 @@ public class PrayerTimeInlineBotService {
         editMessageText.setText("Namoz vaqtlari: \n" + root.getDay() + " - " + monthName);
         editMessageText.setReplyMarkup(inlineKeyboardMarkup);
         return editMessageText;
+    }
+
+    public boolean checkChatId(long chatId){
+        for (Map.Entry<Long,Integer> map:dayMap.entrySet()){
+            if (map.getKey() == chatId){
+                return true;
+            }
+        }
+        return false;
     }
 
 }

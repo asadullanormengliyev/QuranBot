@@ -202,8 +202,8 @@ public class SakinaBot extends TelegramLongPollingBot {
                 sendMessage(xuftonText, chatId);
             }
             if (data.equals(TASBEX_CALLBACK)) {
-                EditMessageReplyMarkup markup = ObjectUtil.tasbexBotService.getUpdateTasbex(chatId, inlineMessageId);
-                execute_update(markup);
+                EditMessageText messageText = ObjectUtil.tasbexBotService.getUpdateTasbex(chatId, inlineMessageId);
+                executeEditMessage(messageText);
             }
             if (data.equals(NEXTT) || data.equals(BACKK)) {
                 EditMessageText editMessageText = ObjectUtil.prayerTimeInlineBotService.nextAndBackSendPrayerTimes(chatId, inlineMessageId, data);
